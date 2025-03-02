@@ -1,0 +1,94 @@
+{
+    "Finance": {
+        "Personal Loans": {
+            "KPIs": [
+                {"name": "Approval Rate", "impact": "Measures the percentage of approved loan applications."},
+                {"name": "Default Rate", "impact": "Indicates the percentage of loans that are not repaid on time."},
+                {"name": "Average Loan Amount", "impact": "Shows the typical loan size issued to borrowers."},
+                {"name": "Loan Processing Time", "impact": "Tracks the time taken to approve and disburse loans."}
+            ],
+            "Reports": [
+                {"name": "Loan Performance Report", "use": "Analyzes loan approval trends and repayment behavior."},
+                {"name": "Default Risk Analysis", "use": "Identifies factors contributing to loan defaults."}
+            ],
+            "Tools": [
+                {"name": "Tableau", "purpose": "For visualizing loan approval trends and risk factors."},
+                {"name": "SQL", "purpose": "For querying and analyzing loan and customer data."},
+                {"name": "Python (Pandas & Scikit-learn)", "purpose": "For advanced data analysis and predictive modeling of loan default risks."}
+            ],
+            "Explanation": "Personal loan approval rates help assess accessibility, while default rates indicate financial risk. Average loan amount and processing time provide insights into operational efficiency. Businesses should focus on optimizing approval processes and reducing default risks using data-driven strategies."
+        },
+        "Mortgage Loans": {
+            "KPIs": [
+                {"name": "Interest Rate Spread", "impact": "Measures the profitability of issued mortgages."},
+                {"name": "Loan-to-Value Ratio (LTV)", "impact": "Assesses risk based on loan amount vs. property value."},
+                {"name": "Delinquency Rate", "impact": "Tracks overdue payments as a percentage of total loans."}
+            ],
+            "Reports": [
+                {"name": "Mortgage Risk Assessment", "use": "Evaluates risk levels in mortgage lending."},
+                {"name": "Loan Portfolio Analysis", "use": "Provides insights into loan distribution and risks."}
+            ],
+            "Tools": [
+                {"name": "Power BI", "purpose": "For interactive mortgage portfolio dashboards."},
+                {"name": "SAS", "purpose": "For risk assessment and credit scoring."},
+                {"name": "Excel", "purpose": "For basic mortgage calculations and analysis."}
+            ],
+            "Explanation": "Monitoring interest rate spread ensures profitability, while LTV and delinquency rates indicate financial health. By tracking these KPIs, lenders can adjust policies to maintain a balanced loan portfolio."
+        },
+        "Insurance": {
+            "KPIs": [
+                {"name": "Claims Settlement Ratio", "impact": "Measures the percentage of claims settled successfully."},
+                {"name": "Loss Ratio", "impact": "Indicates claims paid vs. premiums collected."},
+                {"name": "Customer Retention Rate", "impact": "Shows the percentage of policyholders renewing their policies."}
+            ],
+            "Reports": [
+                {"name": "Insurance Claim Report", "use": "Analyzes patterns in claim settlements."},
+                {"name": "Customer Churn Analysis", "use": "Identifies why customers discontinue their policies."}
+            ],
+            "Tools": [
+                {"name": "R", "purpose": "For statistical analysis and actuarial modeling."},
+                {"name": "SQL", "purpose": "For retrieving and managing policyholder data."},
+                {"name": "Google Analytics", "purpose": "For tracking customer engagement and retention."}
+            ],
+            "Explanation": "High claim settlement ratios increase trust, while monitoring loss ratios helps optimize profitability. Customer retention is crucial, and insurers should analyze churn data to improve service quality."
+        }
+    },
+    "Healthcare": {
+        "Hospitals": {
+            "KPIs": [
+                {"name": "Bed Occupancy Rate", "impact": "Measures how efficiently hospital beds are utilized."},
+                {"name": "Patient Satisfaction Score", "impact": "Indicates the quality of healthcare services based on patient feedback."},
+                {"name": "Average Treatment Cost", "impact": "Provides insights into healthcare affordability."}
+            ],
+            "Reports": [
+                {"name": "Hospital Performance Report", "use": "Analyzes patient inflow, treatment quality, and financial health."},
+                {"name": "Healthcare Cost Analysis", "use": "Evaluates medical expenses and resource allocation."}
+            ],
+            "Tools": [
+                {"name": "Power BI", "purpose": "For visualizing hospital performance metrics."},
+                {"name": "SQL", "purpose": "For managing and querying patient data."},
+                {"name": "Python (Seaborn & Matplotlib)", "purpose": "For analyzing healthcare trends."}
+            ],
+            "Explanation": "Bed occupancy rates indicate hospital efficiency, while patient satisfaction scores highlight service quality. Average treatment cost provides insights into affordability and resource allocation, helping hospitals optimize operations."
+        }
+    },
+    "Retail": {
+        "E-Commerce": {
+            "KPIs": [
+                {"name": "Conversion Rate", "impact": "Measures the percentage of visitors making purchases."},
+                {"name": "Average Order Value (AOV)", "impact": "Shows the average revenue per order."},
+                {"name": "Cart Abandonment Rate", "impact": "Tracks the percentage of customers who leave without completing a purchase."}
+            ],
+            "Reports": [
+                {"name": "Sales Performance Report", "use": "Analyzes revenue trends and customer buying patterns."},
+                {"name": "Customer Behavior Analysis", "use": "Examines browsing and purchasing habits."}
+            ],
+            "Tools": [
+                {"name": "Google Analytics", "purpose": "For tracking website traffic and user behavior."},
+                {"name": "Shopify Reports", "purpose": "For built-in e-commerce analytics."},
+                {"name": "Python (Pandas)", "purpose": "For in-depth sales data analysis."}
+            ],
+            "Explanation": "Conversion rate measures how effective an online store is at turning visitors into buyers. AOV helps track revenue trends, while cart abandonment rate reveals potential friction points in the buying process. Businesses should optimize product pricing and checkout experiences to maximize sales."
+        }
+    }
+}
